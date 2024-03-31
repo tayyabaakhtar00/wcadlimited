@@ -12,7 +12,7 @@
     --gray-color: #f7f7fd;
     --paragraph-color: #272727;
     // Theme Color
-    --theme-color: #06D889;
+    --theme-color: #04fff7;
 
     //Body Color
     --body-color: #eaf1f5;
@@ -585,7 +585,8 @@ video {
             }     
         }
         .header-logo{
-            padding: 25px 0;
+            padding: 15px 0;
+         
         }
         .header-contact{
             @include xl-down-device{

@@ -8,10 +8,13 @@
   --black-color2: #1D1D1D;
   --gray-color: #f7f7fd;
   --paragraph-color: #272727;
-  --theme-color: #06D889;
+  --theme-color: #04fff7;
   --body-color: #eaf1f5;
   --border-color: #232323;
   --black-soft-color: #7e7e7e;
+}
+.text-theme-color {
+  color: var(--theme-color);
 }
 
 @font-face {
@@ -511,7 +514,12 @@ video {
   transform: skewX(45deg) scale(1, 1);
 }
 .header-area2.style-2 .header-logo {
-  padding: 25px 0;
+  padding: 15px 0;
+  color: #04fff7;
+  font-size: x-large;
+}
+.header-area2.style-2 .header-logo h1 {
+ margin-bottom: 0px;
 }
 @media (max-width: 1199px) {
   .header-area2.style-2 .header-contact {
@@ -565,6 +573,8 @@ video {
 }
 .header-area2 .header-logo {
   padding: 15px 0;
+  color: white;
+  font-size: x-large;
 }
 .header-area2 .menu-close-btn i {
   color: var(--white);
