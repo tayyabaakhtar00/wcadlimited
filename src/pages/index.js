@@ -1,44 +1,85 @@
-import About4 from "@/components/about/About4";
-import Banner4 from "@/components/bannner/Banner4";
-import Home4Contact from "@/components/contact/Home4Contact";
-import Experts4 from "@/components/expertes/Experts4";
-import Feature4 from "@/components/features/Feature4";
-import Footer2 from "@/components/footer/Footer2";
-import Header4 from "@/components/header/Header4";
-import Insight4 from "@/components/insight/Insight4";
-
-import Partnar4 from "@/components/partner/Partnar4";
-import Pricing4 from "@/components/pricingplan/Pricing4";
-import Service4 from "@/components/services/Service4";
-import Testimonial4 from "@/components/testimonial/Testimonial4";
-import WorkSection4 from "@/components/wordSection/WorkSection4";
+import Home5Team from "@/components/Team/Home5Team";
+import About5 from "@/components/about/About5";
+import Award5 from "@/components/award/Award5";
+import Bannder5 from "@/components/bannner/Bannder5";
+import Home5Blog from "@/components/blog/Home5Blog";
+import CaseStudy5 from "@/components/caseStudy/CaseStudy5";
+import WhatWeDo5 from "@/components/choose/WhatWeDo5";
+import Sidebar from "@/components/common/Sidebar";
+import Footer5 from "@/components/footer/Footer5";
+import Partner5 from "@/components/partner/Partner5";
+import Service5 from "@/components/services/Service5";
+import Testimonial5 from "@/components/testimonial/Testimonial5";
 import useBodyClass from "@/hooks/useBodyClass";
 import Head from "next/head";
-import React from "react";
+import Link from "next/link";
+import React, { useState } from "react";
 
-function Homepage2() {
-  useBodyClass("home-dark");
+function HomepageThree() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
+  useBodyClass("bg-dark-5");
   return (
     <>
       <Head>
         <title>
-          WCAD -Website Content Artificial Intelligence Design
+          WCAD : Website Content Artificial and Design
         </title>
-        <meta name="description" content="WCAD -Website Content Artificial Intelligence Design" />
+        <meta name="description" content="Website Content Artificial and Design" />
         <link rel="icon" href="/assets/img/sm-logo.svg" />
       </Head>
-      <Header4 />
-      <Banner4 />
-      <About4 />
-      <Service4 />
-      <WorkSection4 />
-      <Feature4 />
-      <Partnar4 />
-      <Testimonial4 />
-     
-      <Footer2 />
+      <Sidebar isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+      <div className="main-container">
+        <div className="sidebar-wrapper">
+          <div className="header-logo">
+            <Link legacyBehavior href="/">
+              <a>
+                <img src="assets/img/sm-logo.svg" alt="" />
+              </a>
+            </Link>
+          </div>
+          <div className="sidebar-button mobile-menu-btn" onClick={toggleMenu}>
+            <span />
+          </div>
+          <div className="header-btn">
+            <Link legacyBehavior href="/contact">
+              <a className="primary-btn6">Get A Quote</a>
+            </Link>
+          </div>
+        </div>
+        <div className="main-content">
+          <header className="header5 d-lg-none d-flex">
+            <div className="header-logo">
+              <Link legacyBehavior href="/">
+                <a>
+                  <img src="assets/img/logo.svg" alt="" />
+                </a>
+              </Link>
+            </div>
+            <div
+              className="sidebar-button mobile-menu-btn2"
+              onClick={toggleMenu}
+            >
+              <span />
+            </div>
+          </header>
+          <Bannder5 />
+          <About5 />
+          <Service5 />
+          <WhatWeDo5 />
+          <Partner5 />
+       
+          <Testimonial5 />
+   
+          <Footer5 />
+        </div>
+      </div>
     </>
   );
 }
 
-export default Homepage2;
+export default HomepageThree;

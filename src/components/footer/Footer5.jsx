@@ -10,7 +10,8 @@ function Footer5() {
           <div className="col-lg-12">
             <div className="footer-top-content">
               <div className="footer-logo">
-                <img className="img-fluid" src="assets/img/logo.svg" alt="" />
+              <h2 className="text-blue-500">WCAD</h2>
+                {/* <img className="img-fluid" src="assets/img/logo.svg" alt="" /> */}
               </div>
               <div className="footer-contect">
                 <div className="icon">

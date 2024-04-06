@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-
+import "@/styles/Home.module.css"
 function Footer2() {
   return (
     <footer className="two">
@@ -10,7 +10,11 @@ function Footer2() {
         <div className="col-lg-12">
           <div className="footer-top-content">
             <div className="footer-logo header-logo">
-              <Link legacyBehavior href="/"><h1 className='text-theme-color'>WCAD</h1></Link>
+            <div className="header-logo">
+        <Link legacyBehavior href="/">
+         <h1 className="text-main font-semibold"> WCAD </h1>
+        </Link>
+      </div>
             </div>
             <div className="footer-contect">
               <div className="icon">
