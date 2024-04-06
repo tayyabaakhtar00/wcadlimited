@@ -2853,6 +2853,7 @@ video {
   left: 0;
   top: 0;
   max-width: 280px;
+
   width: 100%;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   height: 100%;
@@ -2886,17 +2887,17 @@ video {
   opacity: 0.3;
   transform: rotate(90deg);
   margin-bottom: 0;
-  margin-top: 120px;
+  margin-top: 220px;
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .company-name h2 {
-    margin-top: 72px;
+    margin-top: 112px;
     font-size: 130px;
   }
 }
 @media (max-width: 1399px) {
   .main-container .main-content .banner-area-wrapper .company-name h2 {
-    margin-top: 100px;
+    margin-top: 200px;
     font-size: 115px;
   }
 }
@@ -3458,7 +3459,7 @@ video {
 }
 
 .home-dark {
-  background: #22262A;
+  background: #000000;
 }
 
 .home4-about-section .about-left-img-wrap {

@@ -27,7 +27,7 @@ function Bannder5() {
   return (
     <div className="banner-area-wrapper">
         <div className="company-name">
-          <h2>Softconic</h2>
+          <h2>WCAD</h2>
         </div>
         <div className="banner-area">
           <div className="social-area">
@@ -74,17 +74,17 @@ function Bannder5() {
                     <div className="swiper-wrapper">
                       <SwiperSlide className="swiper-slide">
                         <div className="banner-img">
-                          <img className="img-fluid" src="assets/img/home-5/h5-banner-img1.png" alt="" />
+                          <img className="img-fluid" src="assets/img/home-5/h5-banner-img1.jpg" alt="" />
                         </div>
                       </SwiperSlide>
                       <SwiperSlide className="swiper-slide">
                         <div className="banner-img">
-                          <img className="img-fluid" src="assets/img/home-5/h5-banner-img2.png" alt="" />
+                          <img className="img-fluid" src="assets/img/home-5/h5-banner-img2.jpg" alt="" />
                         </div>
                       </SwiperSlide>
                       <SwiperSlide className="swiper-slide">
                         <div className="banner-img">
-                          <img className="img-fluid" src="assets/img/home-5/h5-banner-img3.png" alt="" />
+                          <img className="img-fluid" src="assets/img/home-5/h5-banner-img3.jpg" alt="" />
                         </div>
                       </SwiperSlide>
                     </div>

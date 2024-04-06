@@ -45,7 +45,7 @@ function About5() {
         <div className="col-lg-6 wow animate fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
           <div className="about-img-wrap">
             <div className="about-img magnetic-item">
-              <img className="img-fluid" src="assets/img/home-5/about-img-1.png" alt="" />
+              <img className="img-fluid" src="assets/img/home-5/about-img-1.jpg" alt="" />
             </div>
             <div className="about-video-area magnetic-item">
               <img className="img-fluid" src="assets/img/home-5/about-img-2.png" alt="" />
