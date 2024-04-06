@@ -27,7 +27,7 @@ function HomepageThree() {
     <>
       <Head>
         <title>
-          WCAD : Website Content Artificial and Design
+          WCAD : Unify imaginations
         </title>
         <meta name="description" content="Website Content Artificial and Design" />
         <link rel="icon" href="/assets/img/sm-logo.svg" />

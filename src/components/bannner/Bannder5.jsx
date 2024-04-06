@@ -27,7 +27,7 @@ function Bannder5() {
   return (
     <div className="banner-area-wrapper">
         <div className="company-name">
-          <h2>WCAD</h2>
+          <h2>WCADtech</h2>
         </div>
         <div className="banner-area">
           <div className="social-area">
@@ -39,13 +39,12 @@ function Bannder5() {
             </ul>
           </div>
           <div className="banner-title">
-            <h1>Unlock your <br /> <span>Business</span> website.</h1>
+            <h1>Unlock to your <br /> <span>Business</span> your growth & the future.</h1>
           </div>
           <div className="banner-content">
             <div className="row">
               <div className="col-lg-5">
-                <p>Integer purus odio, placerat nec rhoncus in, ullamcorper nec doloroei. aptent taciti sociosqu ad litora torquent per conubia nostra, persento  
-                  Donec lacinia placerat felis non aliquam.</p>
+                <p>Proudly serving the world's top asset finance & leasing companies with smart software technology for over four decades.</p>
                 <div className="view-btn">
                   <Link legacyBehavior  href="/service">
                     <a className="primary-btn7">
@@ -68,29 +67,7 @@ function Bannder5() {
                   <div className="swiper-pagination1 two " />
                 </div>
               </div>
-              <div className="col-lg-7">
-                <div className="banner-img-wrap">
-                  <Swiper {...slider} className="swiper banner5-slider">
-                    <div className="swiper-wrapper">
-                      <SwiperSlide className="swiper-slide">
-                        <div className="banner-img">
-                          <img className="img-fluid" src="assets/img/home-5/h5-banner-img1.jpg" alt="" />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide className="swiper-slide">
-                        <div className="banner-img">
-                          <img className="img-fluid" src="assets/img/home-5/h5-banner-img2.jpg" alt="" />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide className="swiper-slide">
-                        <div className="banner-img">
-                          <img className="img-fluid" src="assets/img/home-5/h5-banner-img3.jpg" alt="" />
-                        </div>
-                      </SwiperSlide>
-                    </div>
-                  </Swiper>
-                </div>
-              </div>
+              
             </div>
           </div>
           <div className="banner-text-slider">
