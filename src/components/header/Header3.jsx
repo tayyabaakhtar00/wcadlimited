@@ -171,11 +171,11 @@ function Header3() {
         <div className="header-logo">
           <Link legacyBehavior href="/">
             <a>
-              <img
+              {/* <img
                 alt="image"
                 className="img-fluid"
                 src="assets/img/logo.svg"
-              />
+              /> */}
             </a>
           </Link>
         </div>

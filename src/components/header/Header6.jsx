@@ -75,7 +75,7 @@ function Header6() {
       <div className="header-logo">
         <Link legacyBehavior href="/">
           <a>
-            <img alt="image" className="img-fluid" src="assets/img/logo.svg" />
+            {/* <img alt="image" className="img-fluid" src="assets/img/logo.svg" /> */}
           </a>
         </Link>
       </div>

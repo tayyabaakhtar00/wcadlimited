@@ -27,7 +27,7 @@ function HomepageThree() {
     <>
       <Head>
         <title>
-          WCAD : Unify imaginations
+          WCAD : Web content Artificial and Design
         </title>
         <meta name="description" content="Website Content Artificial and Design" />
         <link rel="icon" href="/assets/img/sm-logo.svg" />
@@ -38,7 +38,7 @@ function HomepageThree() {
           <div className="header-logo">
             <Link legacyBehavior href="/">
               <a>
-                <img src="assets/img/sm-logo.svg" alt="" />
+                {/* <img src="assets/img/sm-logo.svg" alt="" /> */}
               </a>
             </Link>
           </div>

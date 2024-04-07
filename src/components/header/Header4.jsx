@@ -82,7 +82,7 @@ function Header4() {
           <div className="mobile-logo-wrap">
             <Link legacyBehavior href="/">
               <a>
-                <img alt="image" src="assets/img/logo.svg" />
+                {/* <img alt="image" src="assets/img/logo.svg" /> */}
               </a>
             </Link>
           </div>
@@ -91,7 +91,6 @@ function Header4() {
           <li className={` ${currentRoute === "/index2"?"active":""}`}>
             <Link legacyBehavior
               href="/"
-            
             >
               Home
             </Link>

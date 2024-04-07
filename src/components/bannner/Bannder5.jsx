@@ -45,18 +45,7 @@ function Bannder5() {
             <div className="row">
               <div className="col-lg-5">
                 <p>Proudly serving the world's top asset finance & leasing companies with smart software technology for over four decades.</p>
-                <div className="view-btn">
-                  <Link legacyBehavior  href="/service">
-                    <a className="primary-btn7">
-                    <span className="circle2">
-                      <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                      </svg>
-                    </span>
-                    <span className="text">VIEW MORE</span>
-                    </a>
-                  </Link>
-                </div>
+            
                 <div className="scroll-and-social-area">
                   <div className="scroll-down-area">
                     <a href="#home5-about-area">

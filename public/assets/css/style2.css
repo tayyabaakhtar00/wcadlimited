@@ -2425,11 +2425,10 @@ video {
   /* Handle on hover */
 }
 .main-nav-wrapper .main-nav2::before {
-  content: "Explore Pages.";
+  content: "WCAD Tech";
   position: absolute;
-  top: 45%;
-  right: 10%;
-  transform: translateY(-50%);
+  /* top: 45%; */
+  transform: translateY(50%);
   display: block;
   font-size: 220px;
   font-weight: 700;
@@ -2439,12 +2438,11 @@ video {
   opacity: 0.1;
   z-index: 1;
   width: 100%;
-  max-width: 1000px;
   margin-left: auto;
   margin-right: 0;
   height: 300px;
   letter-spacing: 5px;
-  text-align: right;
+  text-align: justify;
   z-index: -1;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -2500,10 +2498,17 @@ video {
 .main-nav-wrapper .main-nav2 .menu-close-btn i {
   color: var(--white-color);
 }
+.main-nav-wrapper .main-nav2 .sidebar-menu-area {
+  position: absolute;
+  transform: translateY(100%);
+
+}
 .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul {
   float: none;
+  display: flex;
+
   text-align: left;
-  padding: 80px 0px 80px 0px;
+  /* padding: -80px 0px -80px 0px; */
   margin-bottom: 0px;
   width: 100%;
   max-width: 500px;
@@ -2524,10 +2529,11 @@ video {
 .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul > li {
   display: block;
   position: relative;
-  padding: 5px 5px;
+  padding: 5px 30px;
   transition: all 0.2s;
   transform: translateY(50px) scaleY(0);
   opacity: 0;
+  color: white;
   animation: 0.4s ease 0.6s 1 normal forwards running navLinkFade;
 }
 .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul > li:last-child {
@@ -2566,8 +2572,21 @@ video {
 }
 @supports (-webkit-text-stroke: 1px var(--white-color)) {
   .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul > li a {
-    -webkit-text-stroke: 1px rgba(221, 221, 221, 0.8666666667);
-    color: transparent;
+    -webkit-text-stroke: 1px var(--theme-color);
+    /* color: transparent; */
+    color: white;
+
+  }
+}
+banner-heading{
+  color: var(--theme-color);
+}
+@supports (-webkit-text-stroke: 1px var(--white-color)) {
+  .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul > li a:hover {
+    -webkit-text-stroke: 1px var(--white-color);
+    /* color: transparent; */
+    color: var(--theme-color);
+
   }
 }
 @media (max-width: 576px) {
@@ -2879,7 +2898,7 @@ video {
   font-family: "Saira";
   font-style: normal;
   font-weight: 600;
-  font-size: 150px;
+  font-size: 100px;
   line-height: 1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -2887,23 +2906,23 @@ video {
   opacity: 0.3;
   transform: rotate(90deg);
   margin-bottom: 0;
-  margin-top: 220px;
+  margin-top: 20px;
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .company-name h2 {
-    margin-top: 112px;
-    font-size: 130px;
+    padding: 30px;
+    font-size: 100px;
   }
 }
 @media (max-width: 1399px) {
   .main-container .main-content .banner-area-wrapper .company-name h2 {
-    margin-top: 200px;
-    font-size: 115px;
+ padding: 30px;
+    font-size: 100px;
   }
 }
 .main-container .main-content .banner-area-wrapper .banner-area {
   margin-left: 280px;
-  padding-top: 100px;
+  padding-top: 65px;
   position: relative;
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
@@ -2929,6 +2948,7 @@ video {
 .main-container .main-content .banner-area-wrapper .banner-area .social-area {
   position: absolute;
   right: 60px;
+  margin-top: 35%;
 }
 @media (max-width: 991px) {
   .main-container .main-content .banner-area-wrapper .banner-area .social-area {
@@ -3107,12 +3127,14 @@ video {
 }
 .main-container .main-content .banner-area-wrapper .banner-area .banner-content .scroll-and-social-area .scroll-down-area {
   margin-top: 125px;
+  margin-bottom: 30px;
   max-width: 170px;
   width: 100%;
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .banner-area .banner-content .scroll-and-social-area .scroll-down-area {
-    margin-top: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 1500px) {

@@ -2425,7 +2425,7 @@ video {
   /* Handle on hover */
 }
 .main-nav-wrapper .main-nav2::before {
-  content: "Explore Pages.";
+  content: "WCAD TECH";
   position: absolute;
   top: 45%;
   right: 10%;
@@ -2886,7 +2886,7 @@ video {
   opacity: 0.3;
   transform: rotate(90deg);
   margin-bottom: 0;
-  margin-top: 120px;
+  margin-top: 20px;
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .company-name h2 {
