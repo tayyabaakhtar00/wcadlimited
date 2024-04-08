@@ -7,7 +7,7 @@ function Service5() {
         <div className="container">
           <div className="row mb-55 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <div className="col-lg-12">
-              <div className="section-title-5 text-center">
+              <div  className="section-title-5 text-center ">
                 <span>Solutions We Offer</span>
                 <h2>Services &amp; Solutions</h2>
               </div>

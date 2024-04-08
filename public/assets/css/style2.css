@@ -87,7 +87,7 @@ body {
   font-family: var(--font-saira);
 }
 body.bg-dark-5 {
-  background: #121212;
+  background: #2a3e5a;
 }
 
 h1,
@@ -312,10 +312,10 @@ video {
   font-size: 13px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #B5B5B5;
+  color: white;
   display: inline-block;
   padding: 10px 40px;
-  border: 1px solid rgba(6, 216, 137, 0.5);
+  border: 1px solid rgb(255, 255, 255);
   position: relative;
   margin-bottom: 10px;
 }
@@ -2679,7 +2679,9 @@ banner-heading{
   overflow: hidden;
 }
 .main-container .sidebar-wrapper {
-  background-image: url(../img/home-5/home5-bg.png), linear-gradient(#1d1d1d, #1d1d1d);
+  background-color: #4884b7e6
+;
+  /* background-image: url(../img/home-5/home5-bg.png), linear-gradient(#1d1d1d, #1d1d1d); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2700,7 +2702,7 @@ banner-heading{
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
 }
 @media (max-width: 767px) {
   .main-container .sidebar-wrapper {
@@ -2860,7 +2862,8 @@ banner-heading{
   background-color: var(--theme-color);
 }
 .main-container .main-content .banner-area-wrapper {
-  background-image: url(../img/home-5/home5-bg.png), linear-gradient(#1d1d1d, #1d1d1d);
+  /* background-image: url(../img/home-5/home5-bg.png), linear-gradient(#1d1d1d, #1d1d1d); */
+  background-color:#2a3e5a;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2897,7 +2900,7 @@ banner-heading{
 .main-container .main-content .banner-area-wrapper .company-name h2 {
   font-family: "Saira";
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-size: 100px;
   line-height: 1;
   letter-spacing: 0.03em;
@@ -3094,7 +3097,7 @@ banner-heading{
   font-size: 15px;
   line-height: 35px;
   letter-spacing: 0.03em;
-  color: #E4E4E4;
+  color: white;
   margin-bottom: 0;
 }
 .main-container .main-content .banner-area-wrapper .banner-area .banner-content .view-btn {
@@ -3218,9 +3221,9 @@ banner-heading{
   }
 }
 .main-container .main-content .banner-area-wrapper .banner-area .banner-text-slider {
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background: var(--black-color2);
+  /* border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+  background: var(--bs-white);
   padding: 15px 15px;
   width: 100%;
   overflow: hidden;
@@ -3232,7 +3235,7 @@ banner-heading{
   font-size: 27px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  color: #2a3e5a;
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -6164,7 +6167,7 @@ banner-heading{
   font-size: 15px;
   line-height: 32px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: white;
   margin-bottom: 0;
 }
 .home5-about-area .about-content .about-featue {
@@ -6207,7 +6210,7 @@ banner-heading{
   }
 }
 .home5-about-area .about-content .about-featue li svg {
-  fill: var(--theme-color);
+  fill: var(--bs-white);
 }
 .home5-about-area .about-img-wrap {
   height: 100%;
@@ -6303,7 +6306,8 @@ banner-heading{
 }
 
 .home5-services-section {
-  background-image: url(../img/home-5/home5-services-bg.png), linear-gradient(#171717, #171717);
+  /* background-image: url(../img/home-5/home5-services-bg.png), linear-gradient(#171717, #171717); */
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0px;
@@ -6324,7 +6328,7 @@ banner-heading{
   padding: 0;
 }
 .home5-services-section .solution-card {
-  background: #171717;
+  background: #2a3e5a;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 5px;
   padding: 30px 30px;
@@ -6355,7 +6359,7 @@ banner-heading{
 }
 .home5-services-section .solution-card .solution-content h4 a {
   font-family: var(--font-saira);
-  font-weight: 600;
+  /* font-weight: 600; */
   font-size: 27px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -6376,7 +6380,7 @@ banner-heading{
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: white;
   margin-bottom: 40px;
 }
 .home5-services-section .solution-card:hover {
@@ -6457,7 +6461,7 @@ banner-heading{
   font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: white;
 }
 .home5-process-area .single-process:hover .sl h2 {
   -webkit-text-stroke: 1px rgba(6, 216, 137, 0.2);
@@ -7294,7 +7298,7 @@ banner-heading{
 }
 
 footer {
-  background-image: url(../img/footer/footer-bg.png), linear-gradient(#1d1d1d, #1d1d1d);
+  /* background-image: url(../img/footer/footer-bg.png), linear-gradient(#1d1d1d, #1d1d1d); */
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -7308,7 +7312,7 @@ footer.two {
   }
 }
 footer.three {
-  background-image: url(../img/footer/footer-bg.png), linear-gradient(#171717, #171717);
+  /* background-image: url(../img/footer/footer-bg.png), linear-gradient(#171717, #171717); */
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   footer.three {
@@ -7414,7 +7418,7 @@ footer .footer-widget .footer-contact a {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: white;
   transition: 0.5s;
 }
 footer .footer-widget .footer-contact a:hover {
@@ -7482,7 +7486,7 @@ footer .footer-widget .menu-container ul li a {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
-  color: #B4B4B4;
+  color: white;
   transition: 0.5s;
 }
 footer .footer-widget .menu-container ul li a:hover {
