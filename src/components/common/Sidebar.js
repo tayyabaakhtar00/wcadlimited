@@ -43,12 +43,13 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
     dispatch({ type: "TOGGLE_SUB_MENU", subMenu });
   };
   return (
+    
     <div className="main-nav-wrapper">
     <div className={`main-nav2 ${isMenuOpen ? 'show-menu' : ''}`}>
       <div className="menu-close-btn" onClick={toggleMenu}><i className="bi bi-x-lg" /></div>
       <div className="mobile-logo-area d-flex justify-content-start align-items-center">
         <div className="header-logo">
-          
+        
         </div>
       </div>
       <div className="sidebar-menu-area">

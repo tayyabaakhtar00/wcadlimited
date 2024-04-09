@@ -30,13 +30,21 @@ function Bannder5() {
           <h2>WCADtech</h2>
         </div>
         <div className="banner-area">
-          
+          {/* <div className="social-area">
+            <ul>
+              <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
+              <li><a href="https://twitter.com/"><i className="bx bxl-twitter" /></a></li>
+              <li><a href="https://www.pinterest.com/"><i className="bx bxl-pinterest-alt" /></a></li>
+              <li><a href="https://www.instagram.com/"><i className="bx bxl-instagram" /></a></li>
+            </ul>
+          </div> */}
+          <div className="banner-main">
           <div className="banner-title">
-            <h1>Unlock <br />to your  <span>Business</span> your growth & the future.</h1>
+            <h1>Unlock to your <br /> <span className="banner-heading">Business</span> your growth & the future.</h1>
           </div>
           <div className="banner-content">
             <div className="row">
-              <div className="col-lg-12">
+              <div className="col-lg-5">
                 <p>Proudly serving the world's top asset finance & leasing companies with smart software technology for over four decades.</p>
             
                 <div className="scroll-and-social-area">
@@ -54,7 +62,7 @@ function Bannder5() {
           </div>
           <div className="banner-text-slider">
           <Marquee>  <h2 className="marquee_text"><img src="assets/img/home-5/star.svg" alt="" />We are Design Agency<img src="assets/img/home-5/star.svg" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star.svg" alt="" />We Help To Achieve <img src="assets/img/home-5/star.svg" alt="" />We are Design Agency<img src="assets/img/home-5/star.svg" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star.svg" alt="" />We Help To Achieve<img src="assets/img/home-5/star.svg" alt="" />We are Design Agency<img src="assets/img/home-5/star.svg" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star.svg" alt="" />We Help To Achieve <img src="assets/img/home-5/star.svg" alt="" />We are Design Agency<img src="assets/img/home-5/star.svg" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star.svg" alt="" />We Help To Achieve</h2></Marquee>
-          </div>
+          </div></div>
         </div>
       </div>
   )

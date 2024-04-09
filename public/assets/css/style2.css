@@ -518,6 +518,16 @@ video {
   color: #04fff7;
   font-size: x-large;
 }
+.header-logo{
+height: 100px;
+width: 100px;
+display: flex;
+justify-content: center;
+} .header-logo img{
+  height: 70px;
+  width: 80px;
+ 
+  }
 .header-area2.style-2 .header-logo h1 {
  margin-bottom: 0px;
 }
@@ -1221,8 +1231,8 @@ video {
   line-height: 27px;
   display: inline-block;
   letter-spacing: 0.03em;
-  color: var(--theme-color);
-  border: 1px solid var(--theme-color);
+  color: #016db6;
+  border: 1px solid #016db6;
   transform: rotate(-90deg);
   white-space: nowrap;
   padding: 11px 35px;
@@ -1242,13 +1252,13 @@ video {
   width: 150%;
   bottom: 0;
   border-radius: 2px;
-  background-color: var(--theme-color);
+  background-color: #016db6;
   transform: skewX(45deg) scale(0, 1);
   z-index: -1;
   transition: all 0.5s ease-out 0s;
 }
 .primary-btn6:hover {
-  color: var(--black-color2);
+  color: white;
 }
 .primary-btn6:hover::after {
   transform: skewX(45deg) scale(1, 1);
@@ -1618,7 +1628,11 @@ video {
   background-color: var(--theme-color);
   border-color: var(--theme-color);
 }
-
+.banner-main{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 .banner-area3 {
   background-image: url(../img/home-3/home3-banner-bg.png), linear-gradient(#1d1d1d, #1d1d1d);
   background-size: cover;
@@ -2402,9 +2416,10 @@ video {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 5% !important;
+  /* padding: 20%  !important; */
   z-index: 99;
-  overflow-y: auto;
+  overflow: hidden;
+  
   background-image: url(../img/home-5/home5-bg.png), linear-gradient(#1d1d1d, #1d1d1d);
   background-repeat: no-repeat;
   background-position: center center;
@@ -2414,7 +2429,8 @@ video {
   transition: all 0.7s;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   transform: translateY(-10vh);
   opacity: 0;
   visibility: hidden;
@@ -2424,11 +2440,17 @@ video {
   /* Handle */
   /* Handle on hover */
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this if necessary */
+}
 .main-nav-wrapper .main-nav2::before {
   content: "WCAD Tech";
   position: absolute;
   /* top: 45%; */
-  transform: translateY(50%);
+  /* transform: translateY(50%); */
   display: block;
   font-size: 220px;
   font-weight: 700;
@@ -2440,10 +2462,12 @@ video {
   width: 100%;
   margin-left: auto;
   margin-right: 0;
-  height: 300px;
   letter-spacing: 5px;
   text-align: justify;
   z-index: -1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .main-nav-wrapper .main-nav2::before {
@@ -2500,21 +2524,23 @@ video {
 }
 .main-nav-wrapper .main-nav2 .sidebar-menu-area {
   position: absolute;
-  transform: translateY(100%);
+  /* transform: translateY(100%); */
 
 }
 .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul {
   float: none;
   display: flex;
 
-  text-align: left;
+  text-align: center;
   /* padding: -80px 0px -80px 0px; */
   margin-bottom: 0px;
-  width: 100%;
-  max-width: 500px;
+
+
   margin-left: 0;
   margin-right: auto;
   z-index: 3;
+  display: flex;
+  justify-content: center;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul {
@@ -2572,7 +2598,7 @@ video {
 }
 @supports (-webkit-text-stroke: 1px var(--white-color)) {
   .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul > li a {
-    -webkit-text-stroke: 1px var(--theme-color);
+    -webkit-text-stroke: 1px #016db6;
     /* color: transparent; */
     color: white;
 
@@ -2585,7 +2611,7 @@ banner-heading{
   .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul > li a:hover {
     -webkit-text-stroke: 1px var(--white-color);
     /* color: transparent; */
-    color: var(--theme-color);
+    color: #016db6;
 
   }
 }
@@ -2679,8 +2705,8 @@ banner-heading{
   overflow: hidden;
 }
 .main-container .sidebar-wrapper {
-  background-color: #4884b7e6
-;
+  background: linear-gradient(#ffffff, #ffffff);
+
   /* background-image: url(../img/home-5/home5-bg.png), linear-gradient(#1d1d1d, #1d1d1d); */
   background-repeat: no-repeat;
   background-position: center center;
@@ -2721,7 +2747,7 @@ banner-heading{
 .main-container .sidebar-wrapper .sidebar-button {
   height: 42px;
   width: 42px;
-  border: 1px solid var(--white-color);
+  border: 1px solid #016db6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2732,7 +2758,7 @@ banner-heading{
 .main-container .sidebar-wrapper .sidebar-button span {
   width: 20px;
   height: 1px;
-  background-color: var(--white-color);
+  background-color: #016db6;
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -2741,7 +2767,7 @@ banner-heading{
   content: "";
   width: 20px;
   height: 1px;
-  background-color: var(--white-color);
+  background-color: #016db6;
   position: absolute;
   left: 0;
   top: -6px;
@@ -2751,23 +2777,24 @@ banner-heading{
   content: "";
   width: 20px;
   height: 1px;
-  background-color: var(--white-color);
+  background-color: #016db6;
   position: absolute;
   left: 0;
   bottom: -6px;
   transition: 0.5s;
 }
 .main-container .sidebar-wrapper .sidebar-button:hover {
-  border-color: var(--theme-color);
+  border-color: white;
+  background-color: #016db6;
 }
 .main-container .sidebar-wrapper .sidebar-button:hover span {
-  background-color: var(--theme-color);
+  background-color: white;
 }
 .main-container .sidebar-wrapper .sidebar-button:hover span::before {
-  background-color: var(--theme-color);
+  background-color: white;
 }
 .main-container .sidebar-wrapper .sidebar-button:hover span::after {
-  background-color: var(--theme-color);
+  background-color: white;
 }
 .main-container .sidebar-wrapper .header-btn {
   margin-bottom: 61px;
@@ -2869,6 +2896,7 @@ banner-heading{
   background-size: cover;
   position: relative;
   overflow: hidden;
+  height: 100vh;
 }
 .main-container .main-content .banner-area-wrapper .company-name {
   position: absolute;
@@ -2925,8 +2953,11 @@ banner-heading{
 }
 .main-container .main-content .banner-area-wrapper .banner-area {
   margin-left: 280px;
-  padding-top: 65px;
+
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .banner-area {
@@ -2992,6 +3023,20 @@ banner-heading{
   left: 50%;
   transform: translateX(-50%);
 }
+
+.banner-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.banner-content {
+  flex: 1;
+}
+.banner-text-slider {
+  margin-top: auto;
+}
+
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .banner-area .social-area ul li::after {
     top: -20px;
@@ -3026,11 +3071,14 @@ banner-heading{
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .banner-area .banner-title {
     padding-left: 50px;
+    padding-top: 2%;
   }
 }
 @media (max-width: 1399px) {
   .main-container .main-content .banner-area-wrapper .banner-area .banner-title {
     padding-left: 50px;
+    padding-top:10px;
+  
   }
 }
 @media (max-width: 767px) {
@@ -3055,7 +3103,7 @@ banner-heading{
 }
 @media (max-width: 1399px) {
   .main-container .main-content .banner-area-wrapper .banner-area .banner-title h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 @media (max-width: 991px) {

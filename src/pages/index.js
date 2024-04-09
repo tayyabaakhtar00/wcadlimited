@@ -37,8 +37,8 @@ function HomepageThree() {
         <div className="sidebar-wrapper">
           <div className="header-logo">
             <Link legacyBehavior href="/">
-              <a>
-                {/* <img src="assets/img/sm-logo.svg" alt="" /> */}
+            <a>
+                <img src="assets/img/home-5/logo.jpg" alt="" />
               </a>
             </Link>
           </div>
